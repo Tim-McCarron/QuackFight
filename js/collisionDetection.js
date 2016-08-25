@@ -16,11 +16,11 @@ function detectCollision(one, two) {
 		yDif = one.y - two.y;
 	}
 
-	if (xDif <= ((one.width/2) + (two.width/2)) /2) {
+	if (xDif <= ((one.dWidth/2) + (two.dWidth/2)) /2) {
 		xx = true;
 	}
 
-	if (yDif <= ((one.width/2) + (two.width/2)) /1.5) {
+	if (yDif <= ((one.dHeight/2) + (two.dHeight/2)) /1.5) {
 		yy = true;
 	}
 
